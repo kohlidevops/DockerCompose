@@ -115,9 +115,28 @@ cd DockerComposeFiles
 
 ```
 docker-compose build
+
+//If you are facing any issues with above command do below things
+docker system prune
+docker-compose build --no-cache
 ```
 
 ![image](https://github.com/user-attachments/assets/35cf6198-52b1-4f93-84c6-f2b34a0887bd)
+
+**To check the docker images**
+
+```
+docker images
+```
+
+![image](https://github.com/user-attachments/assets/662cb60b-dc59-41a2-a66b-a56dd54dd1b4)
+
+You can rename the docker image version and re-run the docker-compose command
+
+```
+//Docker-compose yaml file
+image: anshuldevops/python_web:2.2
+```
 
 **To run the docker container using Docker Compose**
 
@@ -125,5 +144,14 @@ docker-compose build
 docker-compose up
 ```
 
+![image](https://github.com/user-attachments/assets/8431e9ae-bd0d-496d-9b6b-6bbdcc328d07)
+
+**To check the container**
+
+```
+docker ps -a
+```
+
+![image](https://github.com/user-attachments/assets/ceb41516-214c-4760-abe2-55cbf259b497)
 
 
