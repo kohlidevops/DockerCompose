@@ -94,3 +94,36 @@ docker compose build
 ➢ tags : This defines a list of tag mappings that must be associated to the build image.
 
 ![image](https://github.com/user-attachments/assets/226c2f1f-5ba0-43c4-b0f4-3773907f739e)
+
+## Docker Compose Demo
+
+### Install docker compose
+
+```
+sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+```
+
+**Clone the repo into your docker daemon host machine**
+
+```
+https://github.com/kohlidevops/DockerComposeFiles.git
+cd DockerComposeFiles
+```
+
+**To build the docker images using Docker Compose**
+
+```
+docker-compose build
+```
+
+![image](https://github.com/user-attachments/assets/35cf6198-52b1-4f93-84c6-f2b34a0887bd)
+
+**To run the docker container using Docker Compose**
+
+```
+docker-compose up
+```
+
+
+
