@@ -155,3 +155,12 @@ docker ps -a
 ![image](https://github.com/user-attachments/assets/ceb41516-214c-4760-abe2-55cbf259b497)
 
 
+## Deploy a Wordpress and MySQL using Docker compose
+
+```
+https://github.com/anshulc55/Docker_for_DevOps/blob/master/docker_compose_wordpress_mysql/docker-compose.yml
+docker-compose up -d
+dockes ps
+```
+
+![image](https://github.com/user-attachments/assets/77278eaf-24ab-4dd3-933a-4750b2f306ec)
