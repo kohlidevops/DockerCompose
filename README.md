@@ -164,3 +164,11 @@ dockes ps
 ```
 
 ![image](https://github.com/user-attachments/assets/77278eaf-24ab-4dd3-933a-4750b2f306ec)
+
+## Deploy a custom app using Docker Compose
+
+```
+https://github.com/kohlidevops/Docker_for_DevOps/tree/master/docker_compose_custom_app
+docker-compose -f <custom-docker-filename> up -d
+docker ps
+```
