@@ -172,3 +172,65 @@ https://github.com/kohlidevops/Docker_for_DevOps/tree/master/docker_compose_cust
 docker-compose -f <custom-docker-filename> up -d
 docker ps
 ```
+
+## To list the Docker compose application
+
+```
+docker-compose ls
+```
+
+![image](https://github.com/user-attachments/assets/611229c6-c91c-4830-a8e8-a3bfa5fff659)
+
+## To check the logs of Docker compose application
+
+```
+docker-compose logs
+```
+
+![image](https://github.com/user-attachments/assets/a0a29692-d3eb-4685-a0f5-c30175c5e231)
+
+## To check the logs of specific service in Docker compose projects
+
+```
+docker-compose logs <service-name>
+```
+
+![image](https://github.com/user-attachments/assets/a10e2eee-425c-4db0-8dc7-866217612719)
+
+## To check the top running process for the application in Docker compose projects
+
+```
+docker-compose top
+docker-compose top <service-name>
+```
+
+![image](https://github.com/user-attachments/assets/8b39d770-e6ce-4521-879b-23f101c02e65)
+
+## To check the live streaming resource usage of a Docker compose running containers
+
+```
+docker-compose stats
+docker-compose stats <service-name>
+```
+
+## To live logs of Docker compose projects
+
+```
+docker-compose logs -f
+docker-compose logs --follow
+```
+
+## To list the Docker compose container
+
+```
+docker-compose ps
+```
+
+## To login to the Docker compose application container
+
+```
+docker exec -it <container-name> /bin/bash
+docker-compose exec <service-name> /bin/bash
+```
+
+![image](https://github.com/user-attachments/assets/27c62970-589d-44f8-900c-9eba91b812a7)
